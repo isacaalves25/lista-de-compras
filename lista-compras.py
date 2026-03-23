@@ -18,7 +18,7 @@ while True:
 
     if indice_escolhido == '1':
         limpar_tela()
-        item = input('Digite o item que deseja adicionar: ').lower()
+        item = input('Digite o item que deseja adicionar: ').lower().strip()
 
         if item:
             if item not in lista_compras:
@@ -35,7 +35,7 @@ while True:
         if len(lista_compras) == 0:
             print('⚠️ A lista está vazia. Não há itens para remoção.')
         else:
-            item = input('Digite o item a ser removido: ').lower()
+            item = input('Digite o item a ser removido: ').lower().strip()
 
             if item in lista_compras:
                 lista_compras.remove(item)
