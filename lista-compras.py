@@ -1,10 +1,3 @@
-"""APAGAR DEPOIS:
-- função os para todos os sistemas
-- verificar se a lista esta vazia antes de mostrar
-- verificar se o usuario digitou alguma coisa antes de adicionar a lista
-- verificar se o item ja existe
-- usar dois excepts oara indice invalido e indice fora do alcance
-"""
 import os
 
 
@@ -18,7 +11,7 @@ while True:
 
     print('---LISTA DE COMPRAS---')
     indice_escolhido = input(
-        '1- Adicionar item | \n'
+        '1 - Adicionar item | \n'
         '2 - Remover item |\n'
         '3 - Mostrar lista |\n'
         '4 - Sair |\n')
